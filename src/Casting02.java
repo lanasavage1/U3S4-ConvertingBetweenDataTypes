@@ -2,7 +2,7 @@ public class Casting02 {
     public static void main(String[] args) {
                 
         //World population today
-        long currentWorldPop = 2998098883L;
+        long currentWorldPop = 7_000_000_000;
         System.out.println("Current World Population: " +currentWorldPop);
         
         //World population in 1950,  Source: United Nations Population Division
@@ -12,7 +12,8 @@ public class Casting02 {
         int europePop   =   547_000_000;
         int americasPop =   339_000_000;
         int oceanaPop   =    13_000_000;
-        System.out.println("World Population in 1950:" + (africaPop + asiaPop + europePop + americasPop + oceanaPop));
+        System.out.println("World Population in 1950:" +
+                africaPop + asiaPop + europePop + americasPop + oceanaPop);
 
         
         //The current population of Asia is an estimated 60% of the world population
